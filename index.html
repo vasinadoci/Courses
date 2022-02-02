@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.min.css">
+   <title>Course</title>
+</head>
+
+<body>
+   <div class="wrapper">
+
+      <!-- ASIDE -->
+
+      <aside class="aside">
+         <div class="aside__container">
+            <div class="aside__logo">
+               <a href="#" class="aside__logo-img">
+                  <img src="./img/Logo.png" alt="logo">
+               </a>
+            </div>
+            <nav class="aside__menu">
+               <div class="aside__menu-nav">
+                  <a href="" class="aside__menu-link">
+                     <img src="./img/home-icon.png" alt="home-icon" class="aside__menu-icon" title="home">
+                  </a>
+                  <a href="" class="aside__menu-link">
+                     <img src="./img/learn-icon.png" alt="learn-icon" class="aside__menu-icon" title="learn">
+                  </a>
+                  <a href="" class="aside__menu-link">
+                     <img src="./img/person-icon.png" alt="person-icon" class="aside__menu-icon" title="">
+                  </a>
+                  <a href="" class="aside__menu-link">
+                     <img src="./img/mail-icon.png" alt="mail-icon" class="aside__menu-icon" title="mail">
+                  </a>
+                  <a href="" class="aside__menu-link">
+                     <img src="./img/settings-icon.png" alt="settings-icon" class="aside__menu-icon" title="settings">
+                  </a>
+               </div>
+               <div class="aside__menu-exit">
+                  <a href="" class="aside__menu-link">
+                     <img src="./img/exit-icon.png" alt="exit-icon" class="aside__menu-icon" title="exit">
+                  </a>
+               </div>
+            </nav>
+
+         </div>
+      </aside>
+
+      <!-- HEADER -->
+
+      <header class="header">
+
+         <div class="header-greetings">
+            <div class="header-greetings__field">
+               <div class="header-greetings__info">
+                  <h1 class="header-greeting__title">Hello Josh!</h1>
+                  <h3 class="header-greeting__sub-title">It’s good to see you again.</h3>
+               </div>
+               <div class="header-greeteng__img">
+                  <img src="./img/header-img.jpg" alt="young man">
+               </div>
+            </div>
+         </div>
+         <div class="header-info">
+            <div class="header-nav">
+               <form action="" class="header-nav__form">
+                  <label for="search" class="header-nav__search">
+                     <input type="text" name="search" id="search">
+                     <img src="./img/icon-search.png" alt="">
+                  </label>
+               </form>
+               <div class="header-nav__notifaction">
+                  <img class="header-nav__notifaction-img" src="./img/icon-Notification-1 png.png" alt="">
+                  <span class="header-nav__notifaction-alert">1</span>
+               </div>
+               <div class="header-nav__profile">
+                  <img class="header-nav__photo" src="./img/photo-profile.jpg" alt="">
+                  <img class="header-nav__arrow" src="./img/icon-arrow-down.png" alt="arrow-down">
+               </div>
+            </div>
+
+            <div class="header-skills">
+               <div class="header-skills__completed">
+                  <h3 class="header-skill__number">11</h3>
+                  <p class="header-skill__descripion">Courses completed</p>
+               </div>
+               <div class="header-skills__progress">
+                  <h3 class="header-skill__number">4</h3>
+                  <p class="header-skill__descripion">Courses in progress</p>
+               </div>
+
+            </div>
+         </div>
+      </header>
+
+      <!-- MAIN -->
+
+      <main class="main">
+         <div class="main-container">
+
+            <!-- Column left -->
+
+            <div class="column-left">
+
+               <!-- My courses -->
+
+               <section class="my-course">
+                  <div class="my-course__info">
+                     <div class="my-course__info-flag">
+                        <img src="./img/flag-icon.jpg" alt="Spanish-flaf-icon">
+                     </div>
+                     <div class="my-course__info-description">
+                        <h3 class="my-course__info-lang">Spanish B2</h3>
+                        <p class="my-course__info-teacher">by Alejandro Velazquez</p>
+                     </div>
+                     <div class="my-course__progress">
+                        <p class="my-course__progress-number">83%</p>
+                     </div>
+                     <button class="my-course__btn">Continue</button>
+                  </div>
+                  <div class="my-course__arrows">
+                     <div class="my-course__arrow-left">
+                        <img src="./img/arrow-left-icon.png" alt="arrow-left">
+                     </div>
+                     <div class="my-course__arrow-right">
+                        <img src="./img/arrow-right-icon.png" alt="arrow-right">
+                     </div>
+                  </div>
+
+               </section>
+
+               <!-- Courses -->
+
+               <section class="courses">
+                  <h2 class="courses__title">Courses</h2>
+                  <nav class="courses__nav  toggles">
+                     <button class="courses__link" id="show-all">All Courses</button>
+                     <button class="courses__link" id="show-newest">The Newest</button>
+                     <button class="courses__link" id="show-rated">Top Rated</button>
+                     <button class="courses__link" id="show-popular">Most Popular</button>
+                  </nav>
+
+                  <div class="courses__cards">
+
+                     <div class="courses__card  show-rated">
+                        <div class="courses__card-logo">
+                           <img src="./img/Figma-logo.png" alt="Figma-logo">
+                        </div>
+                        <div class="courses__card-info">
+                           <h3 class="courses__card-title">Learn Figma</h3>
+                           <p class="courses__card-teacher">by Christopher Morgan</p>
+                        </div>
+                        <div class="courses__card-delay">
+                           <div class="courses__card-time">
+                              <img src="./img/watch-icon.png" alt="watch-icon">
+                           </div>
+                           <p>6h 30min</p>
+                        </div>
+                        <div class="courses__card-rating">
+                           <div class="courses__card-flame">
+                              <img src="./img/flame-icon.png" alt="flame-icon">
+                           </div>
+                           <p>4,9</p>
+                        </div>
+
+                        <button class="courses__card-btn">View course</button>
+                     </div>
+
+                     <div class="courses__card  show-newest">
+                        <div class="courses__card-logo">
+                           <img src="./img/Photo-logo.png" alt="Photo-logo">
+                        </div>
+                        <div class="courses__card-info">
+                           <h3 class="courses__card-title">Analog photography</h3>
+                           <p class="courses__card-teacher">by Gordon Norman</p>
+                        </div>
+                        <div class="courses__card-delay">
+                           <div class="courses__card-time">
+                              <img src="./img/watch-icon.png" alt="watch-icon">
+                           </div>
+                           <p>3h 15min</p>
+                        </div>
+                        <div class="courses__card-rating">
+                           <div class="courses__card-flame">
+                              <img src="./img/flame-icon.png" alt="flame-icon">
+                           </div>
+                           <p>4,7</p>
+                        </div>
+                        <button class="courses__card-btn">View course</button>
+                     </div>
+
+                     <div class="courses__card  show-popular">
+                        <div class="courses__card-logo">
+                           <img src="./img/Instagram-logo.png" alt="Instagram-logo">
+                        </div>
+                        <div class="courses__card-info">
+                           <h3 class="courses__card-title">Master Instagram</h3>
+                           <p class="courses__card-teacher">by Sophie Gill</p>
+                        </div>
+                        <div class="courses__card-delay">
+                           <div class="courses__card-time">
+                              <img src="./img/watch-icon.png" alt="watch-icon">
+                           </div>
+                           <p>7h 40min</p>
+                        </div>
+                        <div class="courses__card-rating">
+                           <div class="courses__card-flame">
+                              <img src="./img/flame-icon.png" alt="flame-icon">
+                           </div>
+                           <p>4,6</p>
+                        </div>
+                        <button class="courses__card-btn">View course</button>
+                     </div>
+
+                     <div class="courses__card  show-newest">
+                        <div class="courses__card-logo">
+                           <img src="./img/Drawing-logo.png" alt="Pensil">
+                        </div>
+                        <div class="courses__card-info">
+                           <h3 class="courses__card-title">Basics of drawing</h3>
+                           <p class="courses__card-teacher">by Jean Tate</p>
+                        </div>
+                        <div class="courses__card-delay">
+                           <div class="courses__card-time">
+                              <img src="./img/watch-icon.png" alt="watch-icon">
+                           </div>
+                           <p>11h 30min</p>
+                        </div>
+                        <div class="courses__card-rating">
+                           <div class="courses__card-flame">
+                              <img src="./img/flame-icon.png" alt="flame-icon">
+                           </div>
+                           <p>4,8</p>
+                        </div>
+                        <button class="courses__card-btn">View course</button>
+                     </div>
+
+                     <div class="courses__card  show-rated">
+                        <div class="courses__card-logo">
+                           <img src="./img/Photoshop-logo.png" alt="Photoshop-logo">
+                        </div>
+                        <div class="courses__card-info">
+                           <h3 class="courses__card-title">Photoshop - Essence</h3>
+                           <p class="courses__card-teacher">by David Green</p>
+                        </div>
+                        <div class="courses__card-delay">
+                           <div class="courses__card-time">
+                              <img src="./img/watch-icon.png" alt="watch-icon">
+                           </div>
+                           <p>5h 35min</p>
+                        </div>
+                        <div class="courses__card-rating">
+                           <div class="courses__card-flame">
+                              <img src="./img/flame-icon.png" alt="flame-icon">
+                           </div>
+                           <p>4,7</p>
+                        </div>
+                        <button class="courses__card-btn">View course</button>
+                     </div>
+
+
+
+                     <div class="courses__card  show-popular">
+                        <div class="courses__card-logo">
+                           <img src="./img/Photoshop-logo.png" alt="Photoshop-logo">
+                        </div>
+                        <div class="courses__card-info">
+                           <h3 class="courses__card-title">Photoshop - Essence</h3>
+                           <p class="courses__card-teacher">by David Green</p>
+                        </div>
+                        <div class="courses__card-delay">
+                           <div class="courses__card-time">
+                              <img src="./img/watch-icon.png" alt="watch-icon">
+                           </div>
+                           <p>5h 35min</p>
+                        </div>
+                        <div class="courses__card-rating">
+                           <div class="courses__card-flame">
+                              <img src="./img/flame-icon.png" alt="flame-icon">
+                           </div>
+                           <p>4,7</p>
+                        </div>
+                        <button class="courses__card-btn">View course</button>
+                     </div>
+
+                     <div class="courses__card  show-newest">
+                        <div class="courses__card-logo">
+                           <img src="./img/Photoshop-logo.png" alt="Photoshop-logo">
+                        </div>
+                        <div class="courses__card-info">
+                           <h3 class="courses__card-title">Photoshop - Essence</h3>
+                           <p class="courses__card-teacher">by David Green</p>
+                        </div>
+                        <div class="courses__card-delay">
+                           <div class="courses__card-time">
+                              <img src="./img/watch-icon.png" alt="watch-icon">
+                           </div>
+                           <p>5h 35min</p>
+                        </div>
+                        <div class="courses__card-rating">
+                           <div class="courses__card-flame">
+                              <img src="./img/flame-icon.png" alt="flame-icon">
+                           </div>
+                           <p>4,7</p>
+                        </div>
+                        <button class="courses__card-btn">View course</button>
+                     </div>
+
+                  </div>
+               </section>
+            </div>
+
+            <!-- Column right -->
+
+            <div class="column-right">
+
+               <!-- Statistics -->
+
+               <section class="statistics">
+                  <h2 class="statistic__title">Your statistics</h2>
+                  <div class="statistic__menu">
+                     <nav class="statistic__nav">
+                        <a href="" class="statistic__link">Learning Hours</a>
+                        <a href="" class="statistic__link">My Courses</a>
+                     </nav>
+                     <button class="statistic__btn">Weekly</button>
+
+                  </div>
+                  <div class="statistic__img">
+                     <img src="./img/statistic-grafic-img.jpg" alt="satistic-grafic">
+                  </div>
+               </section>
+
+               <!-- Cta -->
+
+               <section class="cta">
+                  <div class="cta__info">
+                     <h2 class="cta__title">Lern even more!</h2>
+                     <p class="cta__description">Unlock premium features
+                        only for $9.99 per month.</p>
+                     <button class="cta__btn">Go Premium</button>
+                  </div>
+                  <div class="cta__img">
+                     <img src="./img/cta-img.png" alt="book is open">
+                  </div>
+               </section>
+            </div>
+         </div>
+
+      </main>
+
+      <!-- Footer -->
+
+      <footer class="footer">
+         <a href="#" class="footer__logo">
+            <img src="./img/Footer-logo.png" alt="Footer-logo">
+         </a>
+
+         <div class="footer__menu">
+            <h2 class="courses__title  footer__menu-title">Courses</h2>
+            <nav class="courses__nav  footer__nav">
+               <a href="#" class="courses__link footer__nav-link">All Courses</a>
+               <a href="#" class="courses__link footer__nav-link">The Newest</a>
+               <a href="#" class="courses__link footer__nav-link">Top Rated</a>
+               <a href="#" class="courses__link footer__nav-link">Most Popular</a>
+            </nav>
+         </div>
+
+         <div class="footer__social">
+
+            <div class="footer__social-icon">
+               <a href="https://ru-ru.facebook.com/" class="footer__social-link" target="_blank">
+                  <img src="./img/facebook footer-link.png" alt="facebook-icon">
+               </a>
+            </div>
+            <div class="footer__social-icon">
+               <a href="https://vk.com/" class="footer__social-link" target="_blank">
+                  <img src="./img/vk footer-link.png" alt="vk-icon">
+               </a>
+            </div>
+
+            <div class="footer__social-icon">
+               <a href="https://www.instagram.com/" class="footer__social-link" target="_blank">
+                  <img src="./img/instagram footer-link.png" alt="instagram-icon">
+               </a>
+            </div>
+         </div>
+
+         <div class="footer__contacts">
+            <address class="footer__contacts-addrees">
+               1230 South Spectrum Bolevard Town, State 222336
+            </address>
+            <a href="tel:+1112222345" class="footer__contacts-phone">+1112222345</a>
+            <a href="mailto:f.com" class="footer__contacts-email">f.com</a>
+
+         </div>
+      </footer>
+
+
+
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+   <script src="js/script.min.js"></script>
+</body>
+
+</html>
