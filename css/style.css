@@ -689,7 +689,6 @@ img {
 }
 
 .courses__card-delay {
-  width: 87px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -697,7 +696,7 @@ img {
 }
 
 .courses__card-delay p {
-  padding: 2px 0 0 0;
+  padding: 3px 0 0 5px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 0.8125rem;
